@@ -14,7 +14,7 @@ class EMPUC6{
         
     Random ran=new Random();
         
-    while (totalHrs<=100 && totalworkingdays<=20 )
+    while(totalHrs<=100 && totalworkingdays<=20 )
     {
        int empCheck=ran.nextInt(2);
        totalworkingdays++;
@@ -33,7 +33,7 @@ class EMPUC6{
      salary=empHrs*empWagePerHrs;
      TotalSalary+=salary;
      }
-    System.out.println("Wages for 20_Days:"+TotalSalary);        
+    System.out.println("Wages:"+TotalSalary);        
   }
 }     
         
